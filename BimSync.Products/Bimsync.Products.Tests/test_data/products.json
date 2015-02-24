@@ -1,0 +1,761 @@
+[
+    {
+        "objectId": 912184375,
+        "attributes": {
+            "ObjectType": {
+                "type": "string",
+                "ifcType": "IfcLabel",
+                "value": "300X200"
+            },
+            "Tag": {
+                "type": "string",
+                "ifcType": "IfcIdentifier",
+                "value": "6F9D1B85-9648-4A80-B2C4-B96B2387D298"
+            }
+        },
+        "ifcType": "IfcBeam",
+        "name": "Balk-004",
+        "globalId": "1ldHk5baXAWBB4kMiZXzAO",
+        "quantitySets": [
+            {
+                "objectId": 912239381,
+                "attributes": {
+                    "MethodOfMeasurement": {
+                        "type": "string",
+                        "ifcType": "IfcLabel",
+                        "value": null
+                    }
+                },
+                "ifcType": "IfcElementQuantity",
+                "name": "BaseQuantities",
+                "globalId": "1tuaC92vo59imNKlv3kyEJ",
+                "quantities": {
+                    "OuterSurfaceArea": {
+                        "ifcType": "IfcQuantityArea",
+                        "value": {
+                            "type": "number",
+                            "ifcType": "IfcAreaMeasure",
+                            "value": 3.3,
+                            "unit": "m²"
+                        }
+                    },
+                    "NetVolume": {
+                        "ifcType": "IfcQuantityVolume",
+                        "value": {
+                            "type": "number",
+                            "ifcType": "IfcVolumeMeasure",
+                            "value": 0.198,
+                            "unit": "m³"
+                        }
+                    },
+                    "Length": {
+                        "ifcType": "IfcQuantityLength",
+                        "value": {
+                            "type": "number",
+                            "ifcType": "IfcLengthMeasure",
+                            "value": 3500.0,
+                            "unit": "mm"
+                        }
+                    },
+                    "TotalSurfaceArea": {
+                        "ifcType": "IfcQuantityArea",
+                        "value": {
+                            "type": "number",
+                            "ifcType": "IfcAreaMeasure",
+                            "value": 3.42,
+                            "unit": "m²"
+                        }
+                    },
+                    "Width": {
+                        "ifcType": "IfcQuantityLength",
+                        "value": {
+                            "type": "number",
+                            "ifcType": "IfcLengthMeasure",
+                            "value": 200.0,
+                            "unit": "mm"
+                        }
+                    },
+                    "Depth": {
+                        "ifcType": "IfcQuantityLength",
+                        "value": {
+                            "type": "number",
+                            "ifcType": "IfcLengthMeasure",
+                            "value": 300.0,
+                            "unit": "mm"
+                        }
+                    },
+                    "GrossVolume": {
+                        "ifcType": "IfcQuantityVolume",
+                        "value": {
+                            "type": "number",
+                            "ifcType": "IfcVolumeMeasure",
+                            "value": 0.198,
+                            "unit": "m³"
+                        }
+                    },
+                    "CrossSectionArea": {
+                        "ifcType": "IfcQuantityArea",
+                        "value": {
+                            "type": "number",
+                            "ifcType": "IfcAreaMeasure",
+                            "value": 0.06,
+                            "unit": "m²"
+                        }
+                    }
+                }
+            }
+        ],
+        "propertySets": [
+            {
+                "objectId": 912237318,
+                "ifcType": "IfcPropertySet",
+                "name": "AC_Pset_RenovationAndPhasing",
+                "globalId": "3j4PQVMMaCKr5pH16rsmqh",
+                "properties": {
+                    "Renovation Status": {
+                        "ifcType": "IfcPropertySingleValue",
+                        "nominalValue": {
+                            "type": "string",
+                            "ifcType": "IfcLabel",
+                            "value": "Existing"
+                        }
+                    }
+                }
+            },
+            {
+                "objectId": 912237501,
+                "ifcType": "IfcPropertySet",
+                "name": "Pset_QuantityTakeOff",
+                "globalId": "3KS1_4xag4A0SJYqj9YiDh",
+                "properties": {
+                    "Reference": {
+                        "ifcType": "IfcPropertySingleValue",
+                        "nominalValue": {
+                            "type": "string",
+                            "ifcType": "IfcIdentifier",
+                            "value": "28.11.42"
+                        }
+                    }
+                }
+            },
+            {
+                "objectId": 912239091,
+                "ifcType": "IfcPropertySet",
+                "name": "Pset_BeamCommon",
+                "globalId": "0LVO8jyrZLz4yqQcTXkCT7",
+                "properties": {
+                    "IsExternal": {
+                        "ifcType": "IfcPropertySingleValue",
+                        "nominalValue": {
+                            "type": "boolean",
+                            "ifcType": "IfcBoolean",
+                            "value": false
+                        }
+                    },
+                    "Reference": {
+                        "ifcType": "IfcPropertySingleValue",
+                        "nominalValue": {
+                            "type": "string",
+                            "ifcType": "IfcIdentifier",
+                            "value": "300X200"
+                        }
+                    },
+                    "LoadBearing": {
+                        "ifcType": "IfcPropertySingleValue",
+                        "nominalValue": {
+                            "type": "boolean",
+                            "ifcType": "IfcBoolean",
+                            "value": true
+                        }
+                    }
+                }
+            }
+        ],
+        "types": [
+            {
+                "objectId": 912204532,
+                "attributes": {
+                    "ApplicableOccurrence": {
+                        "type": "string",
+                        "ifcType": "IfcLabel",
+                        "value": null
+                    },
+                    "ElementType": {
+                        "type": "string",
+                        "ifcType": "IfcLabel",
+                        "value": null
+                    },
+                    "Tag": {
+                        "type": "string",
+                        "ifcType": "IfcLabel",
+                        "value": null
+                    },
+                    "PredefinedType": {
+                        "type": "enum",
+                        "ifcType": "IfcBeamTypeEnum",
+                        "value": "NOTDEFINED"
+                    }
+                },
+                "ifcType": "IfcBeamType",
+                "name": "300X200",
+                "globalId": "2FAqlKWGnc49nsl2imDRTM"
+            }
+        ],
+        "materials": [
+            {
+                "objectId": 912183113,
+                "attributes": {
+                    "Name": {
+                        "type": "string",
+                        "ifcType": "IfcLabel",
+                        "value": "220 Gewapend beton - prefab (01)"
+                    }
+                },
+                "ifcType": "IfcMaterial"
+            }
+        ],
+        "presentationLayers": [
+            {
+                "objectId": 912243475,
+                "attributes": {
+                    "Name": {
+                        "type": "string",
+                        "ifcType": "IfcLabel",
+                        "value": "28-1 Draagconstructies balken"
+                    },
+                    "Description": {
+                        "type": "string",
+                        "ifcType": "IfcText",
+                        "value": null
+                    },
+                    "Identifier": {
+                        "type": "string",
+                        "ifcType": "IfcIdentifier",
+                        "value": null
+                    }
+                },
+                "ifcType": "IfcPresentationLayerAssignment"
+            }
+        ]
+    },
+    {
+        "objectId": 912184360,
+        "attributes": {
+            "ObjectType": {
+                "type": "string",
+                "ifcType": "IfcLabel",
+                "value": "300X200"
+            },
+            "Tag": {
+                "type": "string",
+                "ifcType": "IfcIdentifier",
+                "value": "1611E78A-B244-4F37-AC04-34E518DC514D"
+            }
+        },
+        "ifcType": "IfcBeam",
+        "name": "Balk-001",
+        "globalId": "0M4UUAiaHFDwm4DEKOt55D",
+        "quantitySets": [
+            {
+                "objectId": 912239489,
+                "attributes": {
+                    "MethodOfMeasurement": {
+                        "type": "string",
+                        "ifcType": "IfcLabel",
+                        "value": null
+                    }
+                },
+                "ifcType": "IfcElementQuantity",
+                "name": "BaseQuantities",
+                "globalId": "2Me4t5HfTt3Lwat8PdFiGA",
+                "quantities": {
+                    "OuterSurfaceArea": {
+                        "ifcType": "IfcQuantityArea",
+                        "value": {
+                            "type": "number",
+                            "ifcType": "IfcAreaMeasure",
+                            "value": 9.2,
+                            "unit": "m²"
+                        }
+                    },
+                    "NetVolume": {
+                        "ifcType": "IfcQuantityVolume",
+                        "value": {
+                            "type": "number",
+                            "ifcType": "IfcVolumeMeasure",
+                            "value": 0.552,
+                            "unit": "m³"
+                        }
+                    },
+                    "Length": {
+                        "ifcType": "IfcQuantityLength",
+                        "value": {
+                            "type": "number",
+                            "ifcType": "IfcLengthMeasure",
+                            "value": 9500.0,
+                            "unit": "mm"
+                        }
+                    },
+                    "TotalSurfaceArea": {
+                        "ifcType": "IfcQuantityArea",
+                        "value": {
+                            "type": "number",
+                            "ifcType": "IfcAreaMeasure",
+                            "value": 9.32,
+                            "unit": "m²"
+                        }
+                    },
+                    "Width": {
+                        "ifcType": "IfcQuantityLength",
+                        "value": {
+                            "type": "number",
+                            "ifcType": "IfcLengthMeasure",
+                            "value": 200.0,
+                            "unit": "mm"
+                        }
+                    },
+                    "Depth": {
+                        "ifcType": "IfcQuantityLength",
+                        "value": {
+                            "type": "number",
+                            "ifcType": "IfcLengthMeasure",
+                            "value": 300.0,
+                            "unit": "mm"
+                        }
+                    },
+                    "GrossVolume": {
+                        "ifcType": "IfcQuantityVolume",
+                        "value": {
+                            "type": "number",
+                            "ifcType": "IfcVolumeMeasure",
+                            "value": 0.552,
+                            "unit": "m³"
+                        }
+                    },
+                    "CrossSectionArea": {
+                        "ifcType": "IfcQuantityArea",
+                        "value": {
+                            "type": "number",
+                            "ifcType": "IfcAreaMeasure",
+                            "value": 0.06,
+                            "unit": "m²"
+                        }
+                    }
+                }
+            }
+        ],
+        "propertySets": [
+            {
+                "objectId": 912237331,
+                "ifcType": "IfcPropertySet",
+                "name": "Pset_QuantityTakeOff",
+                "globalId": "3UGMUGqAJsPqbL4JUUReNi",
+                "properties": {
+                    "Reference": {
+                        "ifcType": "IfcPropertySingleValue",
+                        "nominalValue": {
+                            "type": "string",
+                            "ifcType": "IfcIdentifier",
+                            "value": "28.11.42"
+                        }
+                    }
+                }
+            },
+            {
+                "objectId": 912237406,
+                "ifcType": "IfcPropertySet",
+                "name": "AC_Pset_RenovationAndPhasing",
+                "globalId": "1MXTRodPBXOnCgs3KF5xUw",
+                "properties": {
+                    "Renovation Status": {
+                        "ifcType": "IfcPropertySingleValue",
+                        "nominalValue": {
+                            "type": "string",
+                            "ifcType": "IfcLabel",
+                            "value": "Existing"
+                        }
+                    }
+                }
+            },
+            {
+                "objectId": 912239117,
+                "ifcType": "IfcPropertySet",
+                "name": "Pset_BeamCommon",
+                "globalId": "3ODAwunfNuFszcCq$PA6fH",
+                "properties": {
+                    "IsExternal": {
+                        "ifcType": "IfcPropertySingleValue",
+                        "nominalValue": {
+                            "type": "boolean",
+                            "ifcType": "IfcBoolean",
+                            "value": false
+                        }
+                    },
+                    "Reference": {
+                        "ifcType": "IfcPropertySingleValue",
+                        "nominalValue": {
+                            "type": "string",
+                            "ifcType": "IfcIdentifier",
+                            "value": "300X200"
+                        }
+                    },
+                    "LoadBearing": {
+                        "ifcType": "IfcPropertySingleValue",
+                        "nominalValue": {
+                            "type": "boolean",
+                            "ifcType": "IfcBoolean",
+                            "value": true
+                        }
+                    }
+                }
+            }
+        ],
+        "types": [
+            {
+                "objectId": 912204532,
+                "attributes": {
+                    "ApplicableOccurrence": {
+                        "type": "string",
+                        "ifcType": "IfcLabel",
+                        "value": null
+                    },
+                    "ElementType": {
+                        "type": "string",
+                        "ifcType": "IfcLabel",
+                        "value": null
+                    },
+                    "Tag": {
+                        "type": "string",
+                        "ifcType": "IfcLabel",
+                        "value": null
+                    },
+                    "PredefinedType": {
+                        "type": "enum",
+                        "ifcType": "IfcBeamTypeEnum",
+                        "value": "NOTDEFINED"
+                    }
+                },
+                "ifcType": "IfcBeamType",
+                "name": "300X200",
+                "globalId": "2FAqlKWGnc49nsl2imDRTM"
+            }
+        ],
+        "materials": [
+            {
+                "objectId": 912183113,
+                "attributes": {
+                    "Name": {
+                        "type": "string",
+                        "ifcType": "IfcLabel",
+                        "value": "220 Gewapend beton - prefab (01)"
+                    }
+                },
+                "ifcType": "IfcMaterial"
+            }
+        ],
+        "presentationLayers": [
+            {
+                "objectId": 912243475,
+                "attributes": {
+                    "Name": {
+                        "type": "string",
+                        "ifcType": "IfcLabel",
+                        "value": "28-1 Draagconstructies balken"
+                    },
+                    "Description": {
+                        "type": "string",
+                        "ifcType": "IfcText",
+                        "value": null
+                    },
+                    "Identifier": {
+                        "type": "string",
+                        "ifcType": "IfcIdentifier",
+                        "value": null
+                    }
+                },
+                "ifcType": "IfcPresentationLayerAssignment"
+            }
+        ]
+    },
+    {
+        "objectId": 1198587222,
+        "attributes": {
+            "ObjectType": {
+                "type": "string",
+                "ifcType": "IfcLabel",
+                "value": null
+            },
+            "Tag": {
+                "type": "string",
+                "ifcType": "IfcIdentifier",
+                "value": null
+            }
+        },
+        "ifcType": "IfcWallStandardCase",
+        "globalId": "1xR1Dku9TCdxjX7pW7MV0W",
+        "propertySets": [
+            {
+                "objectId": 1198587238,
+                "ifcType": "IfcPropertySet",
+                "name": "Allplan Attributes",
+                "globalId": "0BE9x2Ln94FwwVf4$d_43F",
+                "properties": {
+                    "NOI_UUID": {
+                        "ifcType": "IfcPropertySingleValue",
+                        "nominalValue": {
+                            "type": "string",
+                            "ifcType": "IfcDescriptiveMeasure",
+                            "value": "1465e9fe-f06d-11e2-a991-e06995e2f54f--555"
+                        }
+                    },
+                    "Object Layer Attributes": {
+                        "ifcType": "IfcComplexProperty",
+                        "description": "Layer #1",
+                        "properties": {
+                            "Renovatie-categorie": {
+                                "ifcType": "IfcPropertySingleValue",
+                                "nominalValue": {
+                                    "type": "integer",
+                                    "ifcType": "IfcInteger",
+                                    "value": 0
+                                }
+                            },
+                            "Eenheid": {
+                                "ifcType": "IfcPropertySingleValue",
+                                "nominalValue": {
+                                    "type": "string",
+                                    "ifcType": "IfcDescriptiveMeasure",
+                                    "value": "m²"
+                                }
+                            },
+                            "NOI_UUID": {
+                                "ifcType": "IfcPropertySingleValue",
+                                "nominalValue": {
+                                    "type": "string",
+                                    "ifcType": "IfcDescriptiveMeasure",
+                                    "value": "1465e9fe-f06d-11e2-a991-e06995e2f54f--556"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        ],
+        "materials": [
+            {
+                "objectId": 1198587223,
+                "attributes": {
+                    "DirectionSense": {
+                        "type": "enum",
+                        "ifcType": "IfcDirectionSenseEnum",
+                        "value": "POSITIVE"
+                    },
+                    "LayerSetDirection": {
+                        "type": "enum",
+                        "ifcType": "IfcLayerSetDirectionEnum",
+                        "value": "AXIS2"
+                    },
+                    "OffsetFromReferenceLine": {
+                        "type": "number",
+                        "ifcType": "IfcLengthMeasure",
+                        "value": 0.0,
+                        "unit": "mm"
+                    },
+                    "ForLayerSet": {
+                        "type": "object",
+                        "ifcType": "IfcMaterialLayerSet",
+                        "value": {
+                            "attributes": {
+                                "MaterialLayers": {
+                                    "type": "array",
+                                    "ifcType": "IfcMaterialLayer",
+                                    "value": [
+                                        {
+                                            "type": "object",
+                                            "ifcType": "IfcMaterialLayer",
+                                            "value": {
+                                                "attributes": {
+                                                    "IsVentilated": {
+                                                        "type": "boolean",
+                                                        "ifcType": "boolean",
+                                                        "value": true
+                                                    },
+                                                    "Material": {
+                                                        "type": "object",
+                                                        "ifcType": "IfcMaterial",
+                                                        "value": {
+                                                            "attributes": {
+                                                                "Name": {
+                                                                    "type": "string",
+                                                                    "ifcType": "IfcLabel",
+                                                                    "value": "GNL70"
+                                                                }
+                                                            },
+                                                            "ifcType": "IfcMaterial"
+                                                        }
+                                                    },
+                                                    "LayerThickness": {
+                                                        "type": "number",
+                                                        "ifcType": "IfcPositiveLengthMeasure",
+                                                        "value": 70.0,
+                                                        "unit": "mm"
+                                                    }
+                                                },
+                                                "ifcType": "IfcMaterialLayer"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "LayerSetName": {
+                                    "type": "string",
+                                    "ifcType": "IfcLabel",
+                                    "value": null
+                                }
+                            },
+                            "ifcType": "IfcMaterialLayerSet"
+                        }
+                    }
+                },
+                "ifcType": "IfcMaterialLayerSetUsage"
+            }
+        ],
+        "presentationLayers": [
+            {
+                "objectId": 1198583379,
+                "attributes": {
+                    "Name": {
+                        "type": "string",
+                        "ifcType": "IfcLabel",
+                        "value": "METSELWERK BINNEN"
+                    },
+                    "Description": {
+                        "type": "string",
+                        "ifcType": "IfcText",
+                        "value": null
+                    },
+                    "LayerBlocked": {
+                        "type": "boolean",
+                        "ifcType": "boolean",
+                        "value": true
+                    },
+                    "LayerOn": {
+                        "type": "boolean",
+                        "ifcType": "boolean",
+                        "value": true
+                    },
+                    "Identifier": {
+                        "type": "string",
+                        "ifcType": "IfcIdentifier",
+                        "value": "L223"
+                    },
+                    "LayerStyles": {
+                        "type": "array",
+                        "ifcType": "IfcPresentationStyleSelect",
+                        "value": [
+                            {
+                                "type": "object",
+                                "ifcType": "IfcCurveStyle",
+                                "value": {
+                                    "attributes": {
+                                        "Name": {
+                                            "type": "string",
+                                            "ifcType": "IfcLabel",
+                                            "value": null
+                                        },
+                                        "CurveFont": {
+                                            "type": "object",
+                                            "ifcType": "IfcCurveStyleFontAndScaling",
+                                            "value": {
+                                                "attributes": {
+                                                    "Name": {
+                                                        "type": "string",
+                                                        "ifcType": "IfcLabel",
+                                                        "value": null
+                                                    },
+                                                    "CurveFont": {
+                                                        "type": "object",
+                                                        "ifcType": "IfcCurveStyleFont",
+                                                        "value": {
+                                                            "attributes": {
+                                                                "Name": {
+                                                                    "type": "string",
+                                                                    "ifcType": "IfcLabel",
+                                                                    "value": null
+                                                                },
+                                                                "PatternList": {
+                                                                    "type": "array",
+                                                                    "ifcType": "IfcCurveStyleFontPattern",
+                                                                    "value": [
+                                                                        {
+                                                                            "type": "object",
+                                                                            "ifcType": "IfcCurveStyleFontPattern",
+                                                                            "value": {
+                                                                                "attributes": {
+                                                                                    "InvisibleSegmentLength": {
+                                                                                        "type": "number",
+                                                                                        "ifcType": "IfcPositiveLengthMeasure",
+                                                                                        "value": 1.0,
+                                                                                        "unit": "mm"
+                                                                                    },
+                                                                                    "VisibleSegmentLength": {
+                                                                                        "type": "number",
+                                                                                        "ifcType": "IfcLengthMeasure",
+                                                                                        "value": 0.2,
+                                                                                        "unit": "mm"
+                                                                                    }
+                                                                                },
+                                                                                "ifcType": "IfcCurveStyleFontPattern"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            "ifcType": "IfcCurveStyleFont"
+                                                        }
+                                                    },
+                                                    "CurveFontScaling": {
+                                                        "type": "number",
+                                                        "ifcType": "IfcPositiveRatioMeasure",
+                                                        "value": 100.0
+                                                    }
+                                                },
+                                                "ifcType": "IfcCurveStyleFontAndScaling"
+                                            }
+                                        },
+                                        "CurveColour": {
+                                            "type": "object",
+                                            "ifcType": "IfcDraughtingPreDefinedColour",
+                                            "value": {
+                                                "attributes": {
+                                                    "Name": {
+                                                        "type": "string",
+                                                        "ifcType": "IfcLabel",
+                                                        "value": "black"
+                                                    }
+                                                },
+                                                "ifcType": "IfcDraughtingPreDefinedColour"
+                                            }
+                                        },
+                                        "CurveWidth": {
+                                            "type": "number",
+                                            "ifcType": "IfcLengthMeasure",
+                                            "value": 18.0,
+                                            "unit": "mm"
+                                        }
+                                    },
+                                    "ifcType": "IfcCurveStyle"
+                                }
+                            }
+                        ]
+                    },
+                    "LayerFrozen": {
+                        "type": "boolean",
+                        "ifcType": "boolean",
+                        "value": false
+                    }
+                },
+                "ifcType": "IfcPresentationLayerWithStyle"
+            }
+        ]
+    }
+]

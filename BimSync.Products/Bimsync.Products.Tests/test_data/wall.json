@@ -1,0 +1,281 @@
+﻿  {
+        "objectId": 1198587222,
+        "attributes": {
+            "ObjectType": {
+                "type": "string",
+                "ifcType": "IfcLabel",
+                "value": null
+            },
+            "Tag": {
+                "type": "string",
+                "ifcType": "IfcIdentifier",
+                "value": null
+            }
+        },
+        "ifcType": "IfcWallStandardCase",
+        "globalId": "1xR1Dku9TCdxjX7pW7MV0W",
+        "propertySets": [
+            {
+                "objectId": 1198587238,
+                "ifcType": "IfcPropertySet",
+                "name": "Allplan Attributes",
+                "globalId": "0BE9x2Ln94FwwVf4$d_43F",
+                "properties": {
+                    "NOI_UUID": {
+                        "ifcType": "IfcPropertySingleValue",
+                        "nominalValue": {
+                            "type": "string",
+                            "ifcType": "IfcDescriptiveMeasure",
+                            "value": "1465e9fe-f06d-11e2-a991-e06995e2f54f--555"
+                        }
+                    },
+                    "Object Layer Attributes": {
+                        "ifcType": "IfcComplexProperty",
+                        "description": "Layer #1",
+                        "properties": {
+                            "Renovatie-categorie": {
+                                "ifcType": "IfcPropertySingleValue",
+                                "nominalValue": {
+                                    "type": "integer",
+                                    "ifcType": "IfcInteger",
+                                    "value": 0
+                                }
+                            },
+                            "Eenheid": {
+                                "ifcType": "IfcPropertySingleValue",
+                                "nominalValue": {
+                                    "type": "string",
+                                    "ifcType": "IfcDescriptiveMeasure",
+                                    "value": "m²"
+                                }
+                            },
+                            "NOI_UUID": {
+                                "ifcType": "IfcPropertySingleValue",
+                                "nominalValue": {
+                                    "type": "string",
+                                    "ifcType": "IfcDescriptiveMeasure",
+                                    "value": "1465e9fe-f06d-11e2-a991-e06995e2f54f--556"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        ],
+        "materials": [
+            {
+                "objectId": 1198587223,
+                "attributes": {
+                    "DirectionSense": {
+                        "type": "enum",
+                        "ifcType": "IfcDirectionSenseEnum",
+                        "value": "POSITIVE"
+                    },
+                    "LayerSetDirection": {
+                        "type": "enum",
+                        "ifcType": "IfcLayerSetDirectionEnum",
+                        "value": "AXIS2"
+                    },
+                    "OffsetFromReferenceLine": {
+                        "type": "number",
+                        "ifcType": "IfcLengthMeasure",
+                        "value": 0.0,
+                        "unit": "mm"
+                    },
+                    "ForLayerSet": {
+                        "type": "object",
+                        "ifcType": "IfcMaterialLayerSet",
+                        "value": {
+                            "attributes": {
+                                "MaterialLayers": {
+                                    "type": "array",
+                                    "ifcType": "IfcMaterialLayer",
+                                    "value": [
+                                        {
+                                            "type": "object",
+                                            "ifcType": "IfcMaterialLayer",
+                                            "value": {
+                                                "attributes": {
+                                                    "IsVentilated": {
+                                                        "type": "boolean",
+                                                        "ifcType": "boolean",
+                                                        "value": true
+                                                    },
+                                                    "Material": {
+                                                        "type": "object",
+                                                        "ifcType": "IfcMaterial",
+                                                        "value": {
+                                                            "attributes": {
+                                                                "Name": {
+                                                                    "type": "string",
+                                                                    "ifcType": "IfcLabel",
+                                                                    "value": "GNL70"
+                                                                }
+                                                            },
+                                                            "ifcType": "IfcMaterial"
+                                                        }
+                                                    },
+                                                    "LayerThickness": {
+                                                        "type": "number",
+                                                        "ifcType": "IfcPositiveLengthMeasure",
+                                                        "value": 70.0,
+                                                        "unit": "mm"
+                                                    }
+                                                },
+                                                "ifcType": "IfcMaterialLayer"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "LayerSetName": {
+                                    "type": "string",
+                                    "ifcType": "IfcLabel",
+                                    "value": null
+                                }
+                            },
+                            "ifcType": "IfcMaterialLayerSet"
+                        }
+                    }
+                },
+                "ifcType": "IfcMaterialLayerSetUsage"
+            }
+        ],
+        "presentationLayers": [
+            {
+                "objectId": 1198583379,
+                "attributes": {
+                    "Name": {
+                        "type": "string",
+                        "ifcType": "IfcLabel",
+                        "value": "METSELWERK BINNEN"
+                    },
+                    "Description": {
+                        "type": "string",
+                        "ifcType": "IfcText",
+                        "value": null
+                    },
+                    "LayerBlocked": {
+                        "type": "boolean",
+                        "ifcType": "boolean",
+                        "value": true
+                    },
+                    "LayerOn": {
+                        "type": "boolean",
+                        "ifcType": "boolean",
+                        "value": true
+                    },
+                    "Identifier": {
+                        "type": "string",
+                        "ifcType": "IfcIdentifier",
+                        "value": "L223"
+                    },
+                    "LayerStyles": {
+                        "type": "array",
+                        "ifcType": "IfcPresentationStyleSelect",
+                        "value": [
+                            {
+                                "type": "object",
+                                "ifcType": "IfcCurveStyle",
+                                "value": {
+                                    "attributes": {
+                                        "Name": {
+                                            "type": "string",
+                                            "ifcType": "IfcLabel",
+                                            "value": null
+                                        },
+                                        "CurveFont": {
+                                            "type": "object",
+                                            "ifcType": "IfcCurveStyleFontAndScaling",
+                                            "value": {
+                                                "attributes": {
+                                                    "Name": {
+                                                        "type": "string",
+                                                        "ifcType": "IfcLabel",
+                                                        "value": null
+                                                    },
+                                                    "CurveFont": {
+                                                        "type": "object",
+                                                        "ifcType": "IfcCurveStyleFont",
+                                                        "value": {
+                                                            "attributes": {
+                                                                "Name": {
+                                                                    "type": "string",
+                                                                    "ifcType": "IfcLabel",
+                                                                    "value": null
+                                                                },
+                                                                "PatternList": {
+                                                                    "type": "array",
+                                                                    "ifcType": "IfcCurveStyleFontPattern",
+                                                                    "value": [
+                                                                        {
+                                                                            "type": "object",
+                                                                            "ifcType": "IfcCurveStyleFontPattern",
+                                                                            "value": {
+                                                                                "attributes": {
+                                                                                    "InvisibleSegmentLength": {
+                                                                                        "type": "number",
+                                                                                        "ifcType": "IfcPositiveLengthMeasure",
+                                                                                        "value": 1.0,
+                                                                                        "unit": "mm"
+                                                                                    },
+                                                                                    "VisibleSegmentLength": {
+                                                                                        "type": "number",
+                                                                                        "ifcType": "IfcLengthMeasure",
+                                                                                        "value": 0.2,
+                                                                                        "unit": "mm"
+                                                                                    }
+                                                                                },
+                                                                                "ifcType": "IfcCurveStyleFontPattern"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            "ifcType": "IfcCurveStyleFont"
+                                                        }
+                                                    },
+                                                    "CurveFontScaling": {
+                                                        "type": "number",
+                                                        "ifcType": "IfcPositiveRatioMeasure",
+                                                        "value": 100.0
+                                                    }
+                                                },
+                                                "ifcType": "IfcCurveStyleFontAndScaling"
+                                            }
+                                        },
+                                        "CurveColour": {
+                                            "type": "object",
+                                            "ifcType": "IfcDraughtingPreDefinedColour",
+                                            "value": {
+                                                "attributes": {
+                                                    "Name": {
+                                                        "type": "string",
+                                                        "ifcType": "IfcLabel",
+                                                        "value": "black"
+                                                    }
+                                                },
+                                                "ifcType": "IfcDraughtingPreDefinedColour"
+                                            }
+                                        },
+                                        "CurveWidth": {
+                                            "type": "number",
+                                            "ifcType": "IfcLengthMeasure",
+                                            "value": 18.0,
+                                            "unit": "mm"
+                                        }
+                                    },
+                                    "ifcType": "IfcCurveStyle"
+                                }
+                            }
+                        ]
+                    },
+                    "LayerFrozen": {
+                        "type": "boolean",
+                        "ifcType": "boolean",
+                        "value": false
+                    }
+                },
+                "ifcType": "IfcPresentationLayerWithStyle"
+            }
+        ]
+    }

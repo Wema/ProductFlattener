@@ -1,0 +1,239 @@
+﻿  {
+    "objectId": 912184375,
+    "attributes": {
+      "ObjectType": {
+        "type": "string",
+        "ifcType": "IfcLabel",
+        "value": "300X200"
+      },
+      "Tag": {
+        "type": "string",
+        "ifcType": "IfcIdentifier",
+        "value": "6F9D1B85-9648-4A80-B2C4-B96B2387D298"
+      }
+    },
+    "ifcType": "IfcBeam",
+    "name": "Balk-004",
+    "globalId": "1ldHk5baXAWBB4kMiZXzAO",
+    "quantitySets": [
+      {
+        "objectId": 912239381,
+        "attributes": {
+          "MethodOfMeasurement": {
+            "type": "string",
+            "ifcType": "IfcLabel",
+            "value": null
+          }
+        },
+        "ifcType": "IfcElementQuantity",
+        "name": "BaseQuantities",
+        "globalId": "1tuaC92vo59imNKlv3kyEJ",
+        "quantities": {
+          "OuterSurfaceArea": {
+            "ifcType": "IfcQuantityArea",
+            "value": {
+              "type": "number",
+              "ifcType": "IfcAreaMeasure",
+              "value": 3.3,
+              "unit": "m²"
+            }
+          },
+          "NetVolume": {
+            "ifcType": "IfcQuantityVolume",
+            "value": {
+              "type": "number",
+              "ifcType": "IfcVolumeMeasure",
+              "value": 0.198,
+              "unit": "m³"
+            }
+          },
+          "Length": {
+            "ifcType": "IfcQuantityLength",
+            "value": {
+              "type": "number",
+              "ifcType": "IfcLengthMeasure",
+              "value": 3500.0,
+              "unit": "mm"
+            }
+          },
+          "TotalSurfaceArea": {
+            "ifcType": "IfcQuantityArea",
+            "value": {
+              "type": "number",
+              "ifcType": "IfcAreaMeasure",
+              "value": 3.42,
+              "unit": "m²"
+            }
+          },
+          "Width": {
+            "ifcType": "IfcQuantityLength",
+            "value": {
+              "type": "number",
+              "ifcType": "IfcLengthMeasure",
+              "value": 200.0,
+              "unit": "mm"
+            }
+          },
+          "Depth": {
+            "ifcType": "IfcQuantityLength",
+            "value": {
+              "type": "number",
+              "ifcType": "IfcLengthMeasure",
+              "value": 300.0,
+              "unit": "mm"
+            }
+          },
+          "GrossVolume": {
+            "ifcType": "IfcQuantityVolume",
+            "value": {
+              "type": "number",
+              "ifcType": "IfcVolumeMeasure",
+              "value": 0.198,
+              "unit": "m³"
+            }
+          },
+          "CrossSectionArea": {
+            "ifcType": "IfcQuantityArea",
+            "value": {
+              "type": "number",
+              "ifcType": "IfcAreaMeasure",
+              "value": 0.06,
+              "unit": "m²"
+            }
+          }
+        }
+      }
+    ],
+    "propertySets": [
+      {
+        "objectId": 912237318,
+        "ifcType": "IfcPropertySet",
+        "name": "AC_Pset_RenovationAndPhasing",
+        "globalId": "3j4PQVMMaCKr5pH16rsmqh",
+        "properties": {
+          "Renovation Status": {
+            "ifcType": "IfcPropertySingleValue",
+            "nominalValue": {
+              "type": "string",
+              "ifcType": "IfcLabel",
+              "value": "Existing"
+            }
+          }
+        }
+      },
+      {
+        "objectId": 912237501,
+        "ifcType": "IfcPropertySet",
+        "name": "Pset_QuantityTakeOff",
+        "globalId": "3KS1_4xag4A0SJYqj9YiDh",
+        "properties": {
+          "Reference": {
+            "ifcType": "IfcPropertySingleValue",
+            "nominalValue": {
+              "type": "string",
+              "ifcType": "IfcIdentifier",
+              "value": "28.11.42"
+            }
+          }
+        }
+      },
+      {
+        "objectId": 912239091,
+        "ifcType": "IfcPropertySet",
+        "name": "Pset_BeamCommon",
+        "globalId": "0LVO8jyrZLz4yqQcTXkCT7",
+        "properties": {
+          "IsExternal": {
+            "ifcType": "IfcPropertySingleValue",
+            "nominalValue": {
+              "type": "boolean",
+              "ifcType": "IfcBoolean",
+              "value": false
+            }
+          },
+          "Reference": {
+            "ifcType": "IfcPropertySingleValue",
+            "nominalValue": {
+              "type": "string",
+              "ifcType": "IfcIdentifier",
+              "value": "300X200"
+            }
+          },
+          "LoadBearing": {
+            "ifcType": "IfcPropertySingleValue",
+            "nominalValue": {
+              "type": "boolean",
+              "ifcType": "IfcBoolean",
+              "value": true
+            }
+          }
+        }
+      }
+    ],
+    "types": [
+      {
+        "objectId": 912204532,
+        "attributes": {
+          "ApplicableOccurrence": {
+            "type": "string",
+            "ifcType": "IfcLabel",
+            "value": null
+          },
+          "ElementType": {
+            "type": "string",
+            "ifcType": "IfcLabel",
+            "value": null
+          },
+          "Tag": {
+            "type": "string",
+            "ifcType": "IfcLabel",
+            "value": null
+          },
+          "PredefinedType": {
+            "type": "enum",
+            "ifcType": "IfcBeamTypeEnum",
+            "value": "NOTDEFINED"
+          }
+        },
+        "ifcType": "IfcBeamType",
+        "name": "300X200",
+        "globalId": "2FAqlKWGnc49nsl2imDRTM"
+      }
+    ],
+    "materials": [
+      {
+        "objectId": 912183113,
+        "attributes": {
+          "Name": {
+            "type": "string",
+            "ifcType": "IfcLabel",
+            "value": "220 Gewapend beton - prefab (01)"
+          }
+        },
+        "ifcType": "IfcMaterial"
+      }
+    ],
+    "presentationLayers": [
+      {
+        "objectId": 912243475,
+        "attributes": {
+          "Name": {
+            "type": "string",
+            "ifcType": "IfcLabel",
+            "value": "28-1 Draagconstructies balken"
+          },
+          "Description": {
+            "type": "string",
+            "ifcType": "IfcText",
+            "value": null
+          },
+          "Identifier": {
+            "type": "string",
+            "ifcType": "IfcIdentifier",
+            "value": null
+          }
+        },
+        "ifcType": "IfcPresentationLayerAssignment"
+      }
+    ]
+  }
